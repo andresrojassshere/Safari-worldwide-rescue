@@ -40,6 +40,7 @@ function draw() {
     //corazón
     image(imgCora, 30,30);
     image(imgBat, 70,30);
+    ellipse (50,50,50,60);
     break;
 
     case 1: //Anuncio nivel Antartida
