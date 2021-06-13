@@ -25,6 +25,7 @@ function preload() {
 
 function setup() {
   createCanvas(1000, 600);
+  pantalla = 0;
 }
 
 function draw() {
@@ -36,6 +37,9 @@ function draw() {
 
 
   case 0: //inicar juego
+    //corazón
+    image(imgCora, 30,30);
+    image(imgBat, 70,30);
     break;
 
     case 1: //Anuncio nivel Antartida
@@ -79,9 +83,7 @@ function draw() {
   }
 
 
-  //corazón
-  image(imgCora, 30,30);
-  image(imgBat, 70,30);
+
 
 
   jugador.mostrar();
